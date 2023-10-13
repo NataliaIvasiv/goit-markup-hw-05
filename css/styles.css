@@ -538,7 +538,7 @@ font-family: Roboto;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
-line-height: 2; /* 200% */
+line-height: 1.5; 
 letter-spacing: 0.04em;
 }
 .subscribe-btn{
@@ -547,7 +547,7 @@ height: 40px;
 display: flex;
 justify-content: center;
 align-items: center;
-font-family: Roboto;
+font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -686,7 +686,7 @@ margin-bottom: 4px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
-    line-height: 1.5;
+line-height: 1.5;
 margin: 0;
 padding-left: 38px;
 outline: transparent;
@@ -712,17 +712,20 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-input-wrap{
     position: relative;
+    line-height: 1.5;
 }
 .accept-wrap{
     margin-bottom: 24px;
 }
-
+.modal-input-wrap .modal-input{
+    line-height: 1.5;
+}
 .comment-input{
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     width: 360px;
 height: 120px;
